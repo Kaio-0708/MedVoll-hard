@@ -72,15 +72,6 @@ O projeto utiliza as seguintes dependências:
 
 As propriedades de configuração do projeto estão localizadas no arquivo `application.properties`. Certifique-se de definir o segredo do token JWT e as configurações do banco de dados.
 
-### Exemplos de Configuração
-
-```properties
-api.security.token.secret=YOUR_SECRET_KEY
-spring.datasource.url=jdbc:postgresql://localhost:5432/yourdb
-spring.datasource.username=yourusername
-spring.datasource.password=yourpassword
-```
-
 ## Execução
 
 Para executar o projeto, siga os passos abaixo:
